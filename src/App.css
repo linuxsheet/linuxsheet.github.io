@@ -129,7 +129,7 @@ td:first-child {
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    background-color: #13141a;
+    background-color: #13142a;
     border-bottom: 1px solid #2a2b35;
     margin-bottom: 20px;
 }
@@ -145,8 +145,8 @@ td:first-child {
 }
 
 .site-map a.active-link {
-    color: #5dcaa5; /* Sizin kullandığınız yeşil tonu */
-    border-bottom: 2px solid #5dcaa5; /* Aktif olduğunu belirginleştirmek için alt çizgi */
+    color: #5dcaa5;
+    border-bottom: 2px solid #5dcaa5;
     padding-bottom: 4px;
 }
 
