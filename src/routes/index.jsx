@@ -13,8 +13,8 @@ const Routes = createHashRouter([
             {
                 index: true,
                 element: <Home />
-            {
             },
+            {
                 path: 'commands',
                 element: <Commands />
             },
@@ -25,7 +25,7 @@ const Routes = createHashRouter([
             {
                 path: 'filesystem',
                 element: <Filesystem />
-            }
+            },
         ]
     }
 ])
