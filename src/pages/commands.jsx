@@ -210,6 +210,10 @@ function Commands() {
               <td>{"kill -9 $(ps aux | fzf | awk '{print $2}')"}</td>
               <td>Kill selected process</td>
             </tr>
+            <tr>
+              <td>fastfetch --config neofetch.jsonc</td>
+              <td>Neofetch but faster (fastfetch with neofetch similar config)</td>
+            </tr>
           </tbody>
         </table>
       </Accordion>
