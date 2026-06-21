@@ -178,6 +178,8 @@ function Commands() {
           </tbody>
         </table>
       </Accordion>
+
+      <p>Source: <a href="https://github.com/tldr-pages/tldr/tree/main/pages" target="_blank">TL;DR Pages</a></p>
     </div>
   );
 }
