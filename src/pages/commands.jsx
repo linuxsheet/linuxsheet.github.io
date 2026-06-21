@@ -154,6 +154,37 @@ function Commands() {
         </table>
       </Accordion>
 
+      <Accordion title="tmux">
+        <table>
+          <thead>
+            <th>Command</th>
+            <th>Purpose</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>tmux</td>
+              <td>Start a new session</td>
+            </tr>
+            <tr>
+              <td>tmux new-session -s glorytoartzoska</td>
+              <td>Start a new session named glorytoartzoska</td>
+            </tr>
+            <tr>
+              <td>tmux attach -t glorytoartzoska</td>
+              <td>Attach to a session named glorytoartzoska</td>
+            </tr>
+            <tr>
+              <td>tmux attach</td>
+              <td>Attach to last used session</td>
+            </tr>
+            <tr>
+              <td>tmux kill-session -t glorytoartzoska</td>
+              <td>Kill a session named glorytoartzoska</td>
+            </tr>
+          </tbody>
+        </table>
+      </Accordion>
+
       <Accordion title="Some Cheat Commands">
         <table>
           <thead>
