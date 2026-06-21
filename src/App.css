@@ -1,157 +1,157 @@
 body {
-    background-color: #1f2028;
-    color: #f3f4f6;
+  background-color: #1f2028;
+  color: #f3f4f6;
 }
 
 .info {
-    color: darkgrey;
+  color: darkgrey;
 }
 
 * {
-    font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 14px;
-    background-color: #13141a;
-    border: 1px solid #2a2b35;
-    border-radius: 8px;
-    overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  background-color: #13141a;
+  border: 1px solid #2a2b35;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 thead tr {
-    background-color: #16171f;
-    border-bottom: 1px solid #2a2b35;
+  background-color: #16171f;
+  border-bottom: 1px solid #2a2b35;
 }
 
 th {
-    padding: 10px 16px;
-    text-align: left;
-    font-size: 12px;
-    font-weight: 500;
-    color: #9ca3af;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+  padding: 10px 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: #9ca3af;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 td {
-    padding: 10px 16px;
-    color: #f3f4f6;
-    border-bottom: 1px solid #2a2b35;
+  padding: 10px 16px;
+  color: #f3f4f6;
+  border-bottom: 1px solid #2a2b35;
 }
 
 .accordion {
-    border: 1px solid #2a2b35;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 10px;
+  border: 1px solid #2a2b35;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .accordion-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 20px;
-    background: #13141a;
-    color: #f3f4f6;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    font-family: "JetBrains Mono", monospace;
-    transition: background 0.2s;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #13141a;
+  color: #f3f4f6;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
+  transition: background 0.2s;
 }
 
 .accordion-header:hover {
-    background: #1a1b24;
+  background: #1a1b24;
 }
 
 .accordion-title {
-    color: #5dcaa5;
-    font-weight: 600;
+  color: #5dcaa5;
+  font-weight: 600;
 }
 
 .accordion-chevron {
-    font-size: 0.75rem;
-    color: #9ca3af;
-    transition: transform 0.2s;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  transition: transform 0.2s;
 }
 
 .accordion-chevron.open {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .accordion-body {
-    border-top: 1px solid #2a2b35;
+  border-top: 1px solid #2a2b35;
 }
 
 tbody tr:last-child td {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 tbody tr:hover {
-    background-color: #1a1b24;
+  background-color: #1a1b24;
 }
 
 td:first-child {
-    color: #5dcaa5;
-    font-weight: 500;
-    white-space: nowrap;
+  color: #5dcaa5;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .button {
-    display: inline-block;
-    padding: 0.8em 1.6em;
-    background-color: #13141a;
-    color: #f3f4f6;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: opacity 0.2s;
+  display: inline-block;
+  padding: 0.8em 1.6em;
+  background-color: #13141a;
+  color: #f3f4f6;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
 }
 
 .button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .site-map {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    padding: 20px;
-    background-color: #13141a;
-    border-bottom: 1px solid #2a2b35;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 20px;
+  background-color: #13141a;
+  border-bottom: 1px solid #2a2b35;
+  margin-bottom: 20px;
 }
 
 .site-map a {
-    color: #f3f4f6;
-    text-decoration: none;
-    font-weight: 500;
+  color: #f3f4f6;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .site-map a:hover {
-    color: #5dcaa5;
+  color: #5dcaa5;
 }
 
 .site-map a.active-link {
-    color: #5dcaa5;
-    border-bottom: 2px solid #5dcaa5;
-    padding-bottom: 4px;
+  color: #5dcaa5;
+  border-bottom: 2px solid #5dcaa5;
+  padding-bottom: 4px;
 }
 
 main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }

@@ -175,11 +175,23 @@ function Commands() {
               <td>ps aux | fzf</td>
               <td>List all processes</td>
             </tr>
+            <tr>
+              <td>{"kill -9 $(ps aux | fzf | awk '{print $2}')"}</td>
+              <td>Kill selected process</td>
+            </tr>
           </tbody>
         </table>
       </Accordion>
 
-      <p>Source: <a href="https://github.com/tldr-pages/tldr/tree/main/pages" target="_blank">TL;DR Pages</a></p>
+      <p>
+        Source:{" "}
+        <a
+          href="https://github.com/tldr-pages/tldr/tree/main/pages"
+          target="_blank"
+        >
+          TL;DR Pages
+        </a>
+      </p>
     </div>
   );
 }
